@@ -1,0 +1,103 @@
+
+    body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content:center;
+        }
+
+    .box1 {
+        background-image: url(5816231.jpg) ;
+        background-size:cover;
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        }
+
+    .box2{
+        background: rgb(176, 245, 251);
+        width: 100vw;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-content: space-around;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+        }
+
+    h1 {
+        position: relative;
+        align-self: center;
+        color: rgb(17, 127, 187);
+        font-size: 110px;
+        font-weight: bold;
+        font-family: Bebas Neue;
+        top: 30px;
+        }
+
+    .intro {
+        padding:10px;
+        width: 50%;
+        height:25%;
+        font-family: Bebas Neue;
+        position: relative;
+        bottom: 70px;
+        }
+
+    .p{
+        color: rgb(27, 94, 131);
+        font-family: 'Roboto Condensed';
+        font-weight: bol;
+        font-size:larger;
+        text-align: center;
+        }
+
+    .titulo2{
+        text-align: center;
+        width: 70vw;
+        height: 80px;
+        }
+
+    a {
+        text-align: center;
+        color: rgb(17, 127, 187);
+        font-size: 70px;
+        font-weight: bold;
+        font-family: Bebas Neue;
+        }
+
+
+    .items {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 90vw;
+        height: 50vh;
+        margin: 0%;
+        padding: 0%;
+        }
+    
+
+    .texto3, .texto4, .texto2, .texto5{
+        color: rgb(27, 94, 131);
+        width: 30%;
+        height: 60%;
+        font-family: 'Roboto Condensed';
+        font-weight: bold;
+        text-align: center;
+        margin: 10px;
+        padding: 5px;
+        }
+
+    
+
+
+
+
