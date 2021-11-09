@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type='text/javascript'>
+        class Elevador {
+  constructor() {
+    this.andarMax = 15;
+    this.andarAtual = 0;
+    this.pessoasMax = 10;
+    this.pessoasDentro = 0;
+  }
+
+  entra() {
+    if (this.pessoasDentro < this.pessoasMax) {
+      this.pessoasDentro++;
+      this.pessoasDentro = this.pessoasDentro;
+    } else {
+      console.log("O elevador está em sua capacidade máxima.");
+    }
+  }
+
+  sai() {
+    if (this.pessoasDentro > 0) {
+      this.pessoasDentro--;
+      divPessoasDentro.textContent = this.pessoasDentro;
+    } else {
+      response.textContent = "O elevador está vazio."
+    }
+  }
+
+  sobe() {
+    if (this.andarAtual < this.andarMax) {
+      this.andarAtual++;
+      if (this.andarAtual == 0) {
+        divAndarAtual.textContent = '0 - Térreo';
+      } else {
+        divAndarAtual.textContent = this.andarAtual + '° Andar';
+      }
+    } else {
+      response.textContent = "Você está no último andar."
+    }
+  }
+
+  desce() {
+    if (this.andarAtual > 0) {
+      this.andarAtual--;
+      if (this.andarAtual == 0) {
+        divAndarAtual.textContent = 'Térreo';
+      } else {
+        divAndarAtual.textContent = this.andarAtual + '° Andar';
+      }
+    } else {
+      response.textContent = "Você já está no térreo."
+    }
+  }
+}
+
+    </script>
+</body>
+</html>
